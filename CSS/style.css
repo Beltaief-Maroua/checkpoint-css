@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+   background-color: #fdfafa;
+    
+}
+.logo{
+    width: 268px;
+    height: 33px;
+}
+header{
+
+ padding-top: 10px;
+ padding-left: 50px;
+ padding-right: 50px;
+    display: flex;
+    position: fixed;
+    top:0;
+    justify-content: space-between;
+    position: sticky;
+    background: white;
+    z-index: 5;
+
+}
+
+
+.menu-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 250px;
+    
+}
+.active a{
+    color: #00b39b;
+}
+.menu-header > li > a:hover{
+    color: #00b39b;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: #ababab;
+   
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.dropdown-content a {
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content{
+      display: block;
+  }
+.dropdown-content a:hover{
+color: #00b39b;
+background-color: #f1f1f1
+}
+
+.logo-section{
+    
+    display: block;
+    width: 40px;
+    height: 39px;
+     margin-left: auto;
+     margin-right: auto;
+   
+}
+.description h1{
+    text-align: center;
+    font-size: 2.125rem;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;;
+}
+.grid-container {
+   padding: 0;
+    display: grid;
+    grid-template-columns:400px 400px ;
+justify-content: space-around;
+
+   
+      
+  }
+  p{
+    line-height: 1.75;
+    font-weight: 400;
+    color:#747474;;
+   
+  }
+  div{
+      display: block;
+  }
+  .services{
+     margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+ .grid-services{
+     display: grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows:350px;
+    justify-content: space-between;
+ }
+ .patient{
+     background: #00ccb1;
+     color: white;
+     border: 2px solid #00ccb1 ;
+     border-radius: 15px;
+    
+ }
+ .doctors{
+     background: #3d83df;
+     color: white;
+     border: 2px solid #3d83df ;
+     border-radius: 15px;
+ }
+ .clinics{
+     background: #1b2734;
+     color: white;
+     border: 2px solid #1b2734 ;
+     border-radius: 15px;
+ }
+ .patient, .clinics,.doctors{
+     padding: 30px;
+ }
+ .patient h1, .doctors h1, .clinics h1{
+     font-family: Work Sans,Arial,sans-serif;
+     letter-spacing: -.3px;
+     font-weight:100;
+     font-size:28px
+ }
+ select{
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-decoration:underline;
+}
+ h2{
+     font-weight: 10;
+     font-size: 25px;
+     letter-spacing: 1px;
+ }
+ .logo2{
+     width: 25px;
+     height: 25px;
+ }
+ .grid-company{
+     position: relative;
+     top: 50px;
+     display: grid;
+     grid-template-columns: 300px auto auto auto  auto;
+     grid-gap: 10px;
+    
+ }
+ .description-company{
+grid-row: 1/3;
+width:250px;
+font-size: 30px;
+color:#00ccb1 ;
+font-weight: 70px;
+letter-spacing: 1px;
+font-family: Work Sans,Arial,sans-serif;
+
+ }
+ path{
+
+     width: 15px;
+ }
+ svg{
+     width:150px;
+     fill:rgb(202, 202, 202);
+ }
+ .svg-doctoralia{
+     width:120px;
+ }
+ 
+ .svg-miodottore{
+     width: 130px;
+ }
+ .grid-company a:hover svg{
+    fill: #00ccb1;
+ }
+ .platform-healtcare{
+     display: flex;
+     justify-content: space-between;
+    position: relative;
+    background: #e5faf8;
+   top: 100px;
+   align-items: stretch;
+
+
+ }
+ .leader{
+     display: flex;
+   
+    width: 50%;
+    padding: 10px;
+  
+ }
+
+ .healthcare{
+    
+    width: 500px;
+    padding: 50px;
+ }
+ .healthcare h1{
+    color: #00b39b ;
+    letter-spacing: 2px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size:30px;
+    font-weight: normal;
+     
+ }
+ .healthcare img{
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 300px;
+     height: 300px;
+ }
+ .clmn1-leader,.clmn2-leader{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+    
+
+ }
+ .clmn1-leader div , .clmn2-leader div{
+     background: white;
+     width: 220px;
+     height: 200px;
+     border: 2px solid white;
+     margin: 20px;
+     padding-top: 50px;
+     border-radius: 15px;
+    
+     
+ }
+
+ .clmn1-leader{
+
+     padding-top: 40px;
+     
+ }
+ .leader img{
+     display: block;
+     width: 35px;
+     height: 35px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ h3{
+     text-align: center;
+     margin-left: 50px;
+     margin-right: 50px;
+     color: #00b39b;
+ }
+ .leader p{
+     text-align: center;
+     font-size: 14px;
+     
+ }
+ .clmn1-leader p{
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .offices{
+     margin-top: 150px;
+  
+ }
+ .offices h2{
+     
+     color:#00b39b ;
+     font-size: 30px;
+     letter-spacing: 2px;
+     text-align: center;
+ }
+ .offices,.opening{
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ .offices p{
+ text-align: center;
+     width: 480px;
+    
+     font-size: 16px;
+ }
+.grid-contries{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    justify-items: center;
+    grid-gap: 20px;
+    cursor: pointer;
+}
+.grid-contries img{
+    width: 280px;
+    height: 248px;
+}
+
+.grid-contries button{
+    padding: 8px 10px;
+    background: #3d83df;
+    border: 2px solid #3d83df;
+    border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  opacity: 0.9;
+  transition: 0.3s;
+
+}
+
+.button-grid{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.button-grid a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.button-grid button:hover{
+   opacity: 1;
+}
+.opening{
+    margin-top: 50px;
+}
+.opening button{
+    padding: 12px 28px;
+    background: #3d83df;
+    border: none;
+  color: white;
+  cursor: pointer;
+}
+.opening h2{
+    color: black;
+    font-size: 30px;
+}
+footer{
+    padding-top: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+footer a{
+    text-decoration: none;
+    color: #3d83df;
+}
